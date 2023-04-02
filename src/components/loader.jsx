@@ -14,22 +14,20 @@ const Loader = props => {
     <Spin
       spinning
       size="large"
+      {...props}
       style={{ ...style, ...props.style }}
-      className={className}
     />
   );
 }
 
 Loader.propTypes = {
   withPadding: PropTypes.bool,
-  className: PropTypes.string,
   style: PropTypes.object,
 };
 
 Loader.defaultProps = {
-  style: {},
   withPadding: false,
-  className: undefined,
+  style: {},
 };
 
 export default memo(Loader);
