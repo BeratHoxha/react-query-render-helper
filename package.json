@@ -1,8 +1,8 @@
 {
   "name": "react-query-render-helper",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "react-query-render-helper is a lightweight and easy-to-use library that simplifies handling loading and error states for multiple queries using react-query in your React applications",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
     "build": "babel --out-dir=lib src",
     "test": "echo \"Error: no test specified\" && exit 1"

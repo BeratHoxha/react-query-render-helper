@@ -14,7 +14,7 @@ import Error from './components/error';
 // - errorComponent: override error component
 // - shouldShowLoaderWhenIdle: show the loader component while the request is idle.
 const reactQueryRenderHelper = (reactQueryAttrs, opts = {}) => {
-  const isLoading = reactQueryAttrs.some(attr => attr.sLoading === true);
+  const isLoading = reactQueryAttrs.some(attr => attr.isLoading === true);
 
   const isIdle = reactQueryAttrs.some(attr => attr.isIdle == true);
 
