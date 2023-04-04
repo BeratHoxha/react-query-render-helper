@@ -1,8 +1,8 @@
 // Vendor
 import _ from 'lodash';
 // Components
-import Loader from '~/components/loader';
-import Error from '~/components/error';
+import Loader from './components/loader';
+import Error from './components/error';
 
 // This helper inspects the results from one or more react-query useQuery calls.
 // It decides what component should be rendered (Loader, Error, etc.) and
