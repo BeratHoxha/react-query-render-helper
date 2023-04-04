@@ -1,6 +1,6 @@
 {
   "name": "react-query-render-helper",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "react-query-render-helper is a lightweight and easy-to-use library that simplifies handling loading and error states for multiple queries using react-query in your React applications",
   "main": "src/index.js",
   "scripts": {
@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/BeratHoxha/react-query-render-helper/issues"
   },
-  "homepage": "https://github.com/BeratHoxha/react-query-render-helper#readme"
+  "homepage": "https://github.com/BeratHoxha/react-query-render-helper#readme",
+  "dependencies": {
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^9.1.2"
+  }
 }
