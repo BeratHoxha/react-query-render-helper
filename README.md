@@ -50,7 +50,7 @@ function MyComponent() {
 
 The `react-query-render-helper` library provides a way to customize the loader and error components, as well as their props. Here are the available options:
 
-- `loaderProps`: props for the loader component, including the `antd` Spin component props and an optional `withPadding` boolean prop to add padding to the loader.
+- `loaderProps`: props for the loader component, including the `antd` Spin component props.
 - `errorProps`: props for the error component, including an `errorTitle` string prop to set the error title and an `errorMessage` string prop to set the error message.
 - `loaderComponent`: override the default loader component.
 - `errorComponent`: override the default error component.

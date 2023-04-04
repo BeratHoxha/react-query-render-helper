@@ -7,7 +7,7 @@ import Error from '~/components/error';
 // This helper inspects the results from one or more react-query useQuery calls.
 // It decides what component should be rendered (Loader, Error, etc.) and
 // returns it to the caller. This helps reduce tedious boilerplate code.
-// More details for why this helper exists: https://hub3.slite.com/app/channels/L5CYwl~o3m/notes/1ADpoOKetN
+// More details for why this helper exists: https://hub3.com/blog/reducing-react-query-boilerplate
 //
 // opts:
 // - loaderProps: props for components/loader
