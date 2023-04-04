@@ -1,10 +1,12 @@
 // Vendor
 import PropTypes from 'prop-types';
 import { memo } from 'react';
-import { Result } from 'antd';
 
 const Error = props => (
-  <Result status="error" title={props.errorTitle} subTitle={props.errorMessage} />
+  <div>
+    <h1>{props.errorTitle}</h1>
+    <p>{props.errorMessage}</p>
+  </div>
 );
 
 Error.propTypes = {

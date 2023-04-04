@@ -1,5 +1,3 @@
-// Vendor
-import _ from 'lodash';
 // Components
 import Loader from './components/loader';
 import Error from './components/error';
@@ -16,9 +14,9 @@ import Error from './components/error';
 // - errorComponent: override error component
 // - shouldShowLoaderWhenIdle: show the loader component while the request is idle.
 const reactQueryRenderHelper = (reactQueryAttrs, opts = {}) => {
-  const isLoading = _.some(reactQueryAttrs, { isLoading: true });
+  const isLoading = reactQueryAttrs.some(attr => attr.sLoading === true);
 
-  const isIdle = _.some(reactQueryAttrs, { isIdle: true });
+  const isIdle = reactQueryAttrs.some(attr => attr.isIdle == true);
 
   if (isLoading || (opts.shouldShowLoaderWhenIdle && isIdle)) {
     return opts.loaderComponent || <Loader {...opts.loaderProps} />;
