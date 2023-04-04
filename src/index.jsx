@@ -1,3 +1,5 @@
+// Vendor
+import React from 'react';
 // Components
 import Loader from './components/loader';
 import Error from './components/error';

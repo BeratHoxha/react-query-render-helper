@@ -1,4 +1,6 @@
 // Vendor
+import React from 'react';
+// Vendor
 import { memo } from 'react';
 
 const Loader = () => (

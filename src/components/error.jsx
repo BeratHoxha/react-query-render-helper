@@ -1,4 +1,6 @@
 // Vendor
+import React from 'react';
+// Vendor
 import PropTypes from 'prop-types';
 import { memo } from 'react';
 
